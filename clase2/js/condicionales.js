@@ -8,9 +8,9 @@ let respuesta = prompt('¿qué seleccionado ganó el mundial Qatar 2022?');
 // condicional
 if( respuesta.toLowerCase() == 'argentina' ){
     //bloque a ejecutar si la condición es true
-    frase.innerText = '¡CORRECTO!'
+    frase.innerHTML = '<img src="imgs/ok.png" style="vertical-align:middle">  ¡CORRECTO!'
 }
 else{
     //bloque a ejecutar si la condición es false
-    frase.innerText = '¡INCORRECTO!'
+    frase.innerHTML = '<img src="imgs/error.png" style="vertical-align:middle"> ¡INCORRECTO!'
 }
