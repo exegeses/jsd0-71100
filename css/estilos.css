@@ -57,3 +57,13 @@ h1{
         color: var(--text);
         font-size: 20px;
     }
+
+#caja{
+    width: 256px;
+    height: 256px;
+    margin: 24px;
+    border-radius: 16px;
+    background-color: #bbb;
+    color: var(--bg-color);
+    padding: 24px;
+}
