@@ -50,13 +50,13 @@ h1{
         #tabs a:hover{
             background-color:  hsl(278, 28%, 36%);
         }
-    #frase{
-        background-color:  hsl(278, 28%, 30%);
-        padding: 32px;
-        border-radius: 0px 12px 12px 12px;
-        color: var(--text);
-        font-size: 20px;
-    }
+#frase{
+    background-color:  hsl(278, 28%, 30%);
+    padding: 32px;
+    border-radius: 0px 12px 12px 12px;
+    color: var(--text);
+    font-size: 20px;
+}
 
 #caja{
     width: 256px;
@@ -66,4 +66,5 @@ h1{
     background-color: #bbb;
     color: var(--bg-color);
     padding: 24px;
+    transition: 500ms
 }
