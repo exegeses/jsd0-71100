@@ -68,3 +68,38 @@ h1{
     padding: 24px;
     transition: 500ms
 }
+
+input, select{
+    width: 420px;
+    padding: 10px;
+    background-color: hsl(153, 70%, 70%);
+    color:  hsl(153, 100%, 16%);;
+    border-radius: 8px;
+    border: none;
+    font-size: 2em;
+    margin-top: 8px;
+}
+#calculador{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+;}
+#calculador button{
+    width: 380px;
+    padding: 10px;
+    background-color: hsl(154, 66%, 93%);
+    color:  hsl(153, 87%, 15%);;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.8em;
+    margin: 24px;
+    cursor: pointer;
+    transition: 500ms;
+}
+#calculador button:hover{
+    background-color: hsl(154, 66%, 76%);
+}
+
