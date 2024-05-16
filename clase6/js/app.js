@@ -7,5 +7,11 @@ const metros2 = document.querySelector('#metros2');
 function calcular()
 {
     //capturamos opciones seleccionadas por el usuario
-    let 
+    let tipoPropiedad = propiedad.value;
+    let tipoUbicacion = ubicacion.value;
+    let valorM2 = metros2.value;
+
+    console.log('tp: ', tipoPropiedad)
+    console.log('tu: ', tipoUbicacion)
+    console.log('vm2: ', valorM2)
 }
